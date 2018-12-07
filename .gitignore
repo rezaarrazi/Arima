@@ -60,3 +60,5 @@ release/
 
 # Keystore
 keystore/
+demoApplication/src/main/AndroidManifest.xml
+demoApplication/src/main/res/layout/list_item.xml

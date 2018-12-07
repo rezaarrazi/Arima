@@ -3,21 +3,64 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/colorPrimary"
     tools:context=".SerialActivity">
 
     <TextView
         android:id="@+id/label"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="Type here:" />
+        android:text="Type here:"
+        android:textColor="@color/colorPrimary"/>
+
+    <ImageView
+        android:id="@+id/arimalogo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/phonelogo"
+        android:src="@drawable/arimalogo" />
+
+    <ImageView
+        android:id="@+id/swaplogo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignTop="@+id/arimalogo"
+        android:layout_marginStart="146dp"
+        android:layout_marginTop="25dp"
+        android:src="@drawable/ic_swap_horiz_black_24dp" />
+
+    <ImageView
+        android:id="@+id/phonelogo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="75dp"
+        android:src="@drawable/ic_phone_android_black_24dp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="160dp"
+        android:text="YOU ARE CONNECTED TO ARIMA KEYCHAIN"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="30sp" />
 
     <Button
         android:id="@+id/close"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="107dp"
-        android:text="Close" />
+        android:layout_marginBottom="57dp"
+        android:background="@drawable/roundedbutton"
+        android:backgroundTint="@color/colorPrimary"
+        android:text="Close"
+        android:textColor="#ffffff"
+        android:textSize="20sp" />
 
 </RelativeLayout>
