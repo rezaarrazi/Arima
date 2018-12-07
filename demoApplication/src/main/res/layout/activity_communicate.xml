@@ -21,6 +21,10 @@
             android:layout_height="wrap_content" />
 
         <Button
+            android:background="@drawable/roundedbutton"
+            android:backgroundTint="@color/colorPrimary"
+            android:textColor="#ffffff"
+            android:textSize="17sp"
             android:id="@+id/communicate_connect"
             android:text="@string/connect"
             android:layout_width="wrap_content"
@@ -72,6 +76,10 @@
             android:inputType="text" />
 
         <Button
+            android:background="@drawable/roundedbutton"
+            android:backgroundTint="@color/colorPrimary"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
             android:id="@+id/communicate_send"
             android:text="@string/send"
             android:layout_width="wrap_content"

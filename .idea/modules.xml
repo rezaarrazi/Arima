@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/android-bluetooth-serial.iml" filepath="$PROJECT_DIR$/android-bluetooth-serial.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Arima.iml" filepath="$PROJECT_DIR$/Arima.iml" />
       <module fileurl="file://$PROJECT_DIR$/androidBluetoothSerial/androidBluetoothSerial.iml" filepath="$PROJECT_DIR$/androidBluetoothSerial/androidBluetoothSerial.iml" />
       <module fileurl="file://$PROJECT_DIR$/demoApplication/demoApplication.iml" filepath="$PROJECT_DIR$/demoApplication/demoApplication.iml" />
     </modules>
