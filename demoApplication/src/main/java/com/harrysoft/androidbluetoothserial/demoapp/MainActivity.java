@@ -62,7 +62,7 @@ public class MainActivity extends AppCompatActivity {
 
     // Called when clicking on a device entry to start the CommunicateActivity
     public void openCommunicationsActivity(String deviceName, String macAddress) {
-        Intent intent = new Intent(this, CommunicateActivity.class);
+        Intent intent = new Intent(this, SerialActivity.class);
         intent.putExtra("device_name", deviceName);
         intent.putExtra("device_mac", macAddress);
         startActivity(intent);
